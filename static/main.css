@@ -15,7 +15,7 @@ html {
   font-size: 12px;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  color: #e7e7e7;
+  color: #f8f5f5;
   background: rgb(19, 19, 19);
 }
 
@@ -117,7 +117,7 @@ nav {
   border-radius: 0% 0% 0% 40%;
 }
 
-.profile-pic {
+.Profile {
   height: 9rem;
   width: auto;
   border-radius: 50%;
@@ -221,12 +221,12 @@ nav {
   letter-spacing: 1.2rem;
   font-size: 2rem;
   font-weight: 400;
-  overflow: hidden;
+  
   white-space: nowrap;
-  animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
+  
   width: 27ch;
   margin: auto;
-  border-right: 4px solid rgba(255, 255, 255, 1);
+  
 }
 
 @keyframes typing {
@@ -251,14 +251,14 @@ nav {
 .main-message h3 {
   font-size: 4rem;
   margin: 1rem 0;
-  color: rgba(249, 105, 14, 1);
+  color: rgb(3, 3, 3);
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(241, 243, 126) 0%,
+    rgb(246, 244, 248) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+ 
   background-clip: inherit;
 }
 
@@ -347,7 +347,7 @@ hr {
   margin: 4rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
+    rgb(58, 3, 160) 0%,
     rgba(102, 51, 153, 1) 100%
   );
   border: 0;
@@ -403,11 +403,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(1, 14, 2) 0%,
+    rgb(74, 63, 235) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
   background-clip: inherit;
 }
 
@@ -449,11 +449,11 @@ hr {
   margin: 2rem 0;
   background: linear-gradient(
     to right,
-    rgba(249, 105, 14, 1) 0%,
-    rgba(102, 51, 153, 1) 100%
+    rgb(12, 12, 11) 0%,
+    rgb(5, 3, 117) 100%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  
   background-clip: inherit;
 }
 
